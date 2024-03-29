@@ -1,0 +1,2 @@
+SET INSTALLFOLDER=C:\Zabbix
+msiexec /i zabbix_agent-5.2.5-windows-amd64-openssl.msi ENABLEREMOTECOMMANDS=1 SERVER=zabbix-proxy2.bvs.corp LISTENPORT=10050 SERVERACTIVE=zabbix-proxy2.bvs.corp HOSTMETADATA=Windows ENABLEPATH=1 INSTALLFOLDER="%INSTALLFOLDER%" /qn
